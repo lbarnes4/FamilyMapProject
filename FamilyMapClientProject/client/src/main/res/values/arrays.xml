@@ -1,0 +1,31 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <array name="markerColors">
+        <item name="cornflowerblue">@color/cornflowerblue</item>
+        <item name="red">@color/red</item>
+        <item name="sandybrown">@color/sandybrown</item>
+        <item name="seagreen">@color/seagreen</item>
+        <item name="sienna">@color/sienna</item>
+        <item name="yellowgreen">@color/yellowgreen</item>
+        <item name="darkviolet">@color/darkviolet</item>
+        <item name="darkorange">@color/darkorange</item>
+        <item name="hotpink">@color/hotpink</item>
+        <item name="gold">@color/gold</item>
+        <item name="pink">@color/pink</item>
+        <item name="navy">@color/navy</item>
+        <item name="royalblue">@color/royalblue</item>
+        <item name="gray">@color/gray</item>
+        <item name="white">@color/white</item>
+        <item name="black">@color/black</item>
+    </array>
+</resources>

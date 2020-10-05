@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/mapInfo"
+        tools:context=".MapsFragment"/>
+
+    <LinearLayout
+        android:id="@+id/mapInfo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.joanzapata.iconify.widget.IconTextView
+            android:id="@+id/mapInfoIcon"
+            android:text="@string/mapInfoIcon"
+            android:shadowColor="#22000000"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="1"
+            android:textSize="40sp"
+            android:textColor="@color/seagreen"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_width="100dp" />
+        <TextView
+            android:id="@+id/mapInfoText"
+            android:gravity="center"
+            android:text="@string/mapInfoText"
+            android:layout_width="0dp"
+            android:textSize="20sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

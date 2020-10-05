@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Family Map</string>
+    <!-- Strings related to login -->
+
+
+    <string name="action_register">Register</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="log_in">Log in</string>
+    <string name="prompt_server_host">Server Host:</string>
+    <string name="prompt_server_port">Server Port:</string>
+    <string name="prompt_username">Username:</string>
+    <string name="prompt_password">Password:</string>
+    <string name="prompt_first_name">First Name:</string>
+    <string name="prompt_last_name">Last Name:</string>
+    <string name="prompt_email">Email:</string>
+    <string name="prompt_gender">Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="register">Register</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mapInfoText">Click on a marker to see event details</string>
+    <string name="title_activity_settings">Family Map: Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="search">search</string>
+    <string name="settings">settings</string>
+    <string name="mapInfoIcon">{fa-android}</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="gender">Gender</string>
+    <string name="lifeEventsTitle">Life Events</string>
+    <string name="familyTitle">Family</string>
+    <string name="marker_icon">{fa-map-marker}</string>
+    <string name="maleIcon">{fa-male}</string>
+    <string name="femaleIcon">{fa-female}</string>
+    <string name="lifeStoryLinesKey">lifeStoryLines</string>
+    <string name="lifeStoryLinesTitle">Life Story Lines</string>
+    <string name="lifeStoryLinesSummary">SHOW LIFE STORY LINES</string>
+    <string name="familyTreeLinesKey">familyTreeLines</string>
+    <string name="familyTreeLinesTitle">Family Tree Lines</string>
+    <string name="familyTreeLinesSummary">SHOW FAMILY TREE LINES</string>
+    <string name="spouseLinesKey">spouseLines</string>
+    <string name="spouseLinesTitle">Spouse Lines</string>
+    <string name="spouseLinesSummary">SHOW SPOUSE LINES</string>
+    <string name="fathersSideKey">fathersSide</string>
+    <string name="fathersSideTitle">Father\'s Side</string>
+    <string name="fathersSideSummary">FILTER BY FATHER\'S SIDE OF FAMILY</string>
+    <string name="mothersSideKey">mothersSide</string>
+    <string name="mothersSideTitle">Mother\'s Side</string>
+    <string name="mothersSideSummary">FILTER BY MOTHER\'S SIDE OF FAMILY</string>
+    <string name="maleEventsKey">maleEvents</string>
+    <string name="maleEventsTitle">Male Events</string>
+    <string name="maleEventsSummary">FILTER EVENTS BASED ON GENDER</string>
+    <string name="femaleEventsKey">femaleEvents</string>
+    <string name="femaleEventsTitle">Female Events</string>
+    <string name="femaleEventsSummary">FILTER EVENTS BASED ON GENDER</string>
+    <string name="logoutKey">logout</string>
+    <string name="logoutTitle">Logout</string>
+    <string name="logoutSummary">RETURN TO LOGIN SCREEN</string>
+    <string name="searchActivityTitle">Family Map: Search</string>
+    <string name="personActivityTitle">Family Map: Person Details</string>
+    <string name="userIcon">{fa-user}</string>
+</resources>

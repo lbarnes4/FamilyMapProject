@@ -1,0 +1,71 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <SwitchPreferenceCompat
+        app:key="@string/lifeStoryLinesKey"
+        app:title="@string/lifeStoryLinesTitle"
+        app:summary="@string/lifeStoryLinesSummary"
+        app:iconSpaceReserved="false"
+        app:allowDividerAbove="true"
+        app:allowDividerBelow="true"/>
+
+    <SwitchPreferenceCompat
+        app:key="@string/familyTreeLinesKey"
+        app:title="@string/familyTreeLinesTitle"
+        app:summary="@string/familyTreeLinesSummary"
+        app:iconSpaceReserved="false"
+        app:allowDividerAbove="true"
+        app:allowDividerBelow="true"/>
+
+    <SwitchPreferenceCompat
+        app:key="@string/spouseLinesKey"
+        app:title="@string/spouseLinesTitle"
+        app:summary="@string/spouseLinesSummary"
+        app:iconSpaceReserved="false"
+        app:allowDividerAbove="true"
+        app:allowDividerBelow="true"/>
+
+    <SwitchPreferenceCompat
+        app:key="@string/fathersSideKey"
+        app:title="@string/fathersSideTitle"
+        app:summary="@string/fathersSideSummary"
+        app:iconSpaceReserved="false"
+        app:allowDividerAbove="true"
+        app:allowDividerBelow="true"/>
+
+    <SwitchPreferenceCompat
+        app:key="@string/mothersSideKey"
+        app:title="@string/mothersSideTitle"
+        app:summary="@string/mothersSideSummary"
+        app:iconSpaceReserved="false"
+        app:allowDividerAbove="true"
+        app:allowDividerBelow="true"/>
+
+    <SwitchPreferenceCompat
+        app:key="@string/maleEventsKey"
+        app:title="@string/maleEventsTitle"
+        app:summary="@string/maleEventsSummary"
+        app:iconSpaceReserved="false"
+        app:allowDividerAbove="true"
+        app:allowDividerBelow="true"/>
+
+    <SwitchPreferenceCompat
+        app:key="@string/femaleEventsKey"
+        app:title="@string/femaleEventsTitle"
+        app:summary="@string/femaleEventsSummary"
+        app:iconSpaceReserved="false"
+        app:allowDividerAbove="true"
+        app:allowDividerBelow="true"/>
+
+    <Preference
+        app:key="@string/logoutKey"
+        android:enabled="true"
+        android:selectable="true"
+        app:title="@string/logoutTitle"
+        app:summary="@string/logoutSummary"
+        app:iconSpaceReserved="false"
+        app:allowDividerAbove="true"
+        app:allowDividerBelow="true"/>
+
+</PreferenceScreen>
